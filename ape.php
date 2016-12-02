@@ -11,6 +11,9 @@
   <link rel="stylesheet" type="text/css" href="css/webflow.css">
   <link rel="icon" type="image/png" href="images/fav.png" />
   <link rel="stylesheet" type="text/css" href="css/spris-pizza.webflow.css">
+  <link href="https://fonts.googleapis.com/css?family=Pathway+Gothic+One" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Carrois+Gothic" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Lobster" rel="stylesheet">
   <script src="https://ajax.googleapis.com/ajax/libs/webfont/1.4.7/webfont.js"></script>
   <script>
     WebFont.load({
@@ -20,7 +23,7 @@
     });
   </script>
   <script type="text/javascript" src="js/modernizr.js"></script>
-  
+
   <link rel="apple-touch-icon" href="https://daks2k3a4ib2z.cloudfront.net/img/webclip.png">
 </head>
 <body>
@@ -29,7 +32,8 @@
       <div class="w-col w-col-3 navcol">
         <div class="w-nav navigation" data-collapse="small" data-animation="default" data-duration="400" data-contain="1">
           <div class="w-container">
-            <a class="w-nav-brand navllogo" href="index.php"><img src="images/logo_spris.jpg" alt="548f38f8f166a77b3a94b135_logo_spris.jpg">
+            <a class="w-nav-brand navllogo" href="index.php"><img src="images/spris-logo-black-white-small.png" alt="548f38f8f166a77b3a94b135_logo_spris.jpg">
+            </a>
             </a>
             <?php include "includes/nav-main.php"; ?>
             <div class="w-nav-button">
@@ -39,15 +43,15 @@
         </div>
       </div>
       <div class="w-col w-col-9 w-clearfix columna-contenido">
-        <div class="headercontent"><img src="images/header_ape.jpg" alt="548f3668f166a77b3a94b0ec_header_about_us.jpg">
+        <div class="headercontent"><img src="images/Header---APE.jpg" alt="548f3668f166a77b3a94b0ec_header_about_us.jpg">
+          <h2>The Ape</h2>
         </div>
-        <div class="delimit-content">
-          <h2>The Ape</h2>         
-          <div class="ape-content"><img src="images/ape-flyer.jpg" alt="the_ape">          
+        <div class="delimit-content order">
           <h2 id="ape-link"><a href="mailto:info@sprispizza.com?Subject=Book%20the%20Ape!">Book the Ape Now!</a></h2>
+          <div class="ape-content"><img src="images/ape-flyer-new.jpg" alt="the_ape">
         </div>
+        <?php include "includes/footer.php"; ?>
       </div>
     </div>
-    <?php include "includes/footer.php"; ?>
 </body>
 </html>

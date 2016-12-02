@@ -1,34 +1,49 @@
-@font-face {
-    font-family: 'everafter';
-    src: url('everafter-webfont.eot');
-    src: url('everafter-webfont.eot?#iefix') format('embedded-opentype'),
-         url('everafter-webfont.woff2') format('woff2'),
-         url('everafter-webfont.woff') format('woff'),
-         url('everafter-webfont.ttf') format('truetype'),
-         url('everafter-webfont.svg#ever_afterregular') format('svg');
-    font-weight: normal;
-    font-style: normal;
+/*Font family imported from Google Fonts, using Lobster and Gothic*/
 
+/*This first section of rules is to hide the Responsive Design Links and Images on wide screen view*/
+
+.mobile-view-index-link {
+  display: none;
 }
-.content-locations{padding-bottom:5px; margin-bottom: 5px; border-bottom: 1px dashed #ccc;}
+.mobile-view-nav-image {
+  display: none;
+}
+/*End Responsive Design rules*/
+
+.content-locations{
+  padding-bottom:5px;
+  margin-bottom: 5px;
+  border-bottom: 1px
+  dashed #ccc;
+}
 .nomargin {
-    color: #666;
+    color: #fff;
     font-size: 23px;
     margin-top: 10px !important;
-    text-align: left !important;
+    text-align: center !important;
 }
 
+html {
+  height: 100%;
+  padding: 0;
+  margin: 0;
+}
 body {
-  /background: url(../images/background.jpg) no-repeat center center fixed;
+  background: url(../images/background.jpg) no-repeat center center fixed;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
-  background-size: cover;*/
-  margin-top: 0px;
-  font-family: Arial, 'Helvetica Neue', Helvetica, sans-serif;
-  color: #333;
+  background-size: cover;
+  height: 100%;
+  margin: 0;
+  padding: 0;
+  font-family: 'Carrois Gothic', sans-serif;
+  color: #fff;
   font-size: 14px;
   line-height: 20px;
+}
+a {
+  color: #fff;
 }
 h1 {
   margin-top: 20px;
@@ -37,6 +52,7 @@ h1 {
   line-height: 44px;
   font-weight: 700;
   text-align: center;
+  font-family: 'Pathway Gothic One', sans-serif;
 }
 h2 {
   margin-top: 20px;
@@ -44,13 +60,9 @@ h2 {
   font-size: 32px;
   line-height: 36px;
   font-weight: 700;
-  color:#063472;
+  color:#fff;
+  font-family: 'Pathway Gothic One', sans-serif;
 }
-
-h2#ape-link {
-  margin-bottom: 20px;
-}
-
 h3 {
   margin-top: 51px;
   margin-bottom: 10px;
@@ -58,6 +70,7 @@ h3 {
   line-height: 30px;
   font-weight: 700;
   text-align: center;
+  font-family: 'Pathway Gothic One', sans-serif;
 }
 h4 {
   margin-top: 10px;
@@ -65,6 +78,7 @@ h4 {
   font-size: 25px;
   line-height: 24px;
   font-weight: 700;
+  font-family: 'Pathway Gothic One', sans-serif;
 }
 h5 {
   margin-top: 10px;
@@ -72,6 +86,7 @@ h5 {
   font-size: 14px;
   line-height: 20px;
   font-weight: 700;
+  font-family: 'Pathway Gothic One', sans-serif;
 }
 h6 {
   margin-top: 10px;
@@ -79,12 +94,32 @@ h6 {
   font-size: 12px;
   line-height: 18px;
   font-weight: 700;
+  font-family: 'Pathway Gothic One', sans-serif;
 }
 p {
   margin-top: 9px;
   margin-bottom: 5px;
   font-size: 14px;
   font-weight: 400;
+}
+.headercontent h2 {
+  display: none;
+}
+.delimit-content h2, h3, h4, p {
+ text-align: center;
+ padding-left: 10px;
+ padding-right: 10px;
+}
+.delimit-content div, a {
+ padding-left: 20px;
+}
+i.fa {
+  color: #fff;
+}
+.front-page-nav-link {
+  font-family: 'Lobster', cursive;
+  margin-top: 0;
+  margin-bottom: 15px;
 }
 .button {
   display: inline-block;
@@ -93,6 +128,13 @@ p {
   color: white;
   text-align: center;
   text-decoration: none;
+}
+.button-primary {
+  display: inline-block;
+  background-color: orange;
+  text-align: center;
+  font-size: 24px;
+  margin: 15px 0 15px 20px;
 }
 .columnalogo {
   padding-right: 0px;
@@ -173,7 +215,7 @@ p {
   margin-left: 5px;
 }
 .colsocial {
-  padding-top: 29px;
+  padding: 29px 0 0 30px;
 }
 .logo-graspa {
   margin-top: 18px;
@@ -187,43 +229,46 @@ p {
   margin-left: 52px;
   font-size: 11px;
   line-height: 20px;
+  color: #fff;
 }
 .navigation {
-  background-color: #e99f22;
+  background-color: #1C1F1F;
 }
 .navllogo {
   display: block;
   margin-right: auto;
-  margin-left: 20px;
+  margin-left: 35px;
   float: left;
-  background-color: #e99f22;
+  background-color: #1C1F1F;
   text-align: left;
+  padding-left: 0;
 }
 .navlink {
-    background-color: #063273 !important;
-    clear: none;
-    color: white;
-    float: none;
-    font-family: "everafter";
-    font-size: 26px !important;
-    left: 0;
-    margin: 2px 3px 3px 0;
-    padding: 10px !important;
-    position: relative;
-    text-transform: uppercase;
-    top: 0;
-    width: 100%;
+  background-color: #1C1F1F !important;
+  clear: none;
+  color: white;
+  float: none;
+  font-family: 'Pathway Gothic One', sans-serif;
+  font-size: 26px !important;
+  left: 0;
+  margin: 2px 3px 3px 0;
+  padding: 10px !important;
+  position: relative;
+  text-transform: uppercase;
+  top: 0;
+  width: 100%;
+  border: 1px solid #fff;
 }
 .navlink:hover {
   margin-left: 0px;
   opacity: 0.62;
-  color: #ffcc00;
+  color: #e6e6e6;
 }
 .navlink.worklink {
   margin-left: 40px;
 }
 .navlink.bg-yellow {
-  background-color: #e99f22;
+  background-color: #1C1F1F;
 }
 .navlink.bg-yellow.paddingmenu {
   padding-right: 10px;
@@ -256,7 +301,7 @@ p {
 }
 .navlink.font-15.paddingl:hover {
   margin-left: 0px;
-  color: #ffcc00;
+  color: #e6e6e6;
 }
 .navlink.paddingleft {
   padding-right: 29px;
@@ -280,35 +325,51 @@ p {
   margin: 0px 0px 0px 36px;
   padding: 4px 0px;
   background-color: transparent;
-  color: #143272;
+  color: #e6e6e6;
   font-size: 14px;
 }
 .navlink.submenulink2:hover {
   font-weight: 700;
 }
-.mavitems {
-  background-image: url('../images/nav_bkg.jpg');
+.order {
+  text-align: center;
+  padding-bottom: 50px;
 }
-.headercontent {
-  text-align: right;
+.bot-order h2 {
+  width: 250px;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+}
+.amazon-order-link {
+  display: block;
+  padding-top: 5px;
+}
+.mavitems {
+  /*background-image: url('../images/nav_bkg.jpg');*/
 }
 .pic-about {
   margin-top: 151px;
   float: right;
 }
-
-.ape-content {
-    text-align: center;
+div.ape-content {
+  padding-left: 0;
 }
 .container-content {
   margin-top: 21px;
 }
 .delimit-content {
-  width: 644px;
+  width: 642px;
+  position: absolute;
+  left: 10px;
   float: right;
-}
-.delimit-content.order {
+  background-color: #1C1F1F;
   margin-top: 27px;
+  margin-bottom: 100px;
+  padding-bottom: 20px;
+}
+.h3-24px-font-size {
+  font-size: 24px;
 }
 .delimit-content.header-menu {
   width: 661px;
@@ -323,7 +384,7 @@ p {
   text-decoration: none;
 }
 .minilinks:hover {
-  color: #f2b202;
+  color: #e6e6e6;
 }
 .minilinks.download {
   margin-top: 5px;
@@ -415,7 +476,16 @@ p {
 .content-menu.ingredientes {
   font-size: 12px;
 }
-.footer-menu {
+.contact-page-restaurant-info h2,
+.contact-page-restaurant-info h3,
+.contact-page-restaurant-info p,
+.contact-page-restaurant-info a {
+  width: 600px;
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
+}
+.-menu {
   margin-top: 25px;
 }
 .legal {
@@ -437,31 +507,111 @@ p {
 .trans:hover {
   opacity: 0.75;
 }
+.ul-social-media-icons {
+  list-style-type: none;
+  padding: 0;
+  text-align: center;
+  margin-top: 10px;
+  margin-bottom: 15px;
+}
+.ul-social-media-icons li {
+  display: inline;
+}
+.w-col.w-col-6.w-col-medium-6.w-col-small-6.colsocial {
+  width: 40%;
+  padding-left: 0;
+}
+.order-online-link {
+  border: 0;
+}
+.display-block-img {
+  display: block;
+  margin: 15px auto;
+}
+.w-col.w-col-6.w-col-small-6.w-col-tiny-6.locations-right-col div {
+  padding-left: 40px;
+}
+.footer {
+  position:fixed;
+  bottom: 0;
+  padding: 0;
+  margin: 0;
+  background-color: #1C1F1F;
+  width: inherit;
+}
+#menu-pdf-link {
+  margin-top: 20px;
+}
+#ape-link a {
+ display: block;
+ margin-bottom: 20px;
+ text-decoration: none;
+}
+#founder-img  {
+ margin: 20px 10px 0 10px;
+}
 
 /***tablet***/
 @media (max-width: 991px) {
+  body {
+    background-image: none;
+    background-color: #e6e6e6;
+  }
+  a {
+    text-decoration: none;
+  }
+  h1 {
+    font-family: 'Pathway Gothic One', sans-serif;
+    color: #fff;
+    font-size: 28px;
+  }
+  h2 {
+    font-size: 26px;
+  }
+  h3 {
+    font-size: 24px;
+  }
+  h4 {
+    font-size: 22px;
+  }
+  h5 {
+    font-size: 12px;
+  }
+  .headercontent img {
+    display: none;
+  }
+  .headercontent h2 {
+    font-family: 'Lobster', cursive;
+    font-size: 40px;
+    background-color: #1C1F1F;
+    margin-top: 5px;
+    margin-bottom: 0;
+    padding: 15px 0;
+    text-align: center;
+  }
+  .block-logo {
+    margin-bottom: 11px;
+    background-color: #1C1F1F;
+    background-image: url(../images/mobile-view-div-background.jpg);
+  }
   .main-row {
     text-align: left;
   }
   .col1 {
-    background-color: #063472;
+    background-color: #1C1F1F;
   }
   .col3 {
-    background-color: #e99f22;
+    background-color: #1C1F1F;
   }
   .col4 {
-    background-color: #063472;
+    background-color: #1C1F1F;
   }
   .col6 {
-    background-color: #063472;
+    background-color: #1C1F1F;
   }
   .block-order {
     margin-top: 11px;
-    background-color: #e99f22;
-  }
-  .block-logo {
-    margin-bottom: 11px;
-    background-color: #e99f22;
+    background-color: #1C1F1F;
   }
   .social1 {
     margin-left: 3px;
@@ -469,17 +619,16 @@ p {
   .navllogo {
     margin-left: 0px;
   }
-  .navlink {
-    margin-left: 2px;
-  }
   .navlink.bg-yellow.font-24 {
     font-size: 21px;
   }
   .delimit-content {
-    width: 540px;
+    width: 95.5%;
+    margin-top: 0;
   }
   .delimit-content.header-menu {
-    width: 540px;
+    width: 95.5%;
+    /*width: 540px;*/
   }
   .location-left-col {
     text-align: center;
@@ -505,10 +654,59 @@ p {
     width: 130px;
     height: 124px;
   }
+  .link-img {
+    background-image: url(../images/mobile-view-div-background.jpg);
+  }
+  a.w-inline-block.trans {
+    padding-left: 0;
+  }
+  .link-img h1 {
+    margin-right: 10px;
+  }
+  .order-online-link{
+      border: 0;
+    }
+  .mobile-footer-image {
+    display: inline-block;
+    width: 300px;
+  }
+  .w-col.w-col-6.w-col-small-6.w-col-tiny-6.locations-right-col div {
+    padding-left: 40px;
+  }
+  .footer {
+    display: none;
+  }
 }
 
 /***phone landscape***/
 @media (max-width: 767px) {
+  body {
+    background-image: none;
+    background-color: #e6e6e6;
+  }
+  a {
+    text-decoration: none;
+  }
+  h1 {
+    font-family: 'Pathway Gothic One', sans-serif;
+    color: #fff;
+    font-size: 26px;
+  }
+  h2 {
+    font-size: 24px;
+  }
+  h3 {
+    font-size: 22px;
+  }
+  h4 {
+    font-size: 20px;
+  }
+  h5 {
+    font-size: 12px;
+  }
+  .headercontent h2 {
+    display: block;
+  }
   .columna-en3-1 {
     margin-top: 11px;
   }
@@ -530,9 +728,17 @@ p {
   .img-contact {
     width: 169px;
   }
+  .block-logo {
+    margin-top: 0px;
+    margin-bottom: 11px;
+    background-image: url(../images/mobile-view-div-background.jpg);
+  }
+  .link-img {
+    background-image: url(../images/mobile-view-div-background.jpg);
+  }
   .block-order {
     margin-top: 16px;
-    background-color: #e99f22;
+    background-color: #1C1F1F;
   }
   .navllogo {
     margin-left: 183px;
@@ -553,7 +759,8 @@ p {
     display: block;
   }
   .delimit-content {
-    width: 557px;
+    /*width: 557px;*/
+    width: 95.5%;
   }
   .delimit-content.header-menu {
     width: 558px;
@@ -596,62 +803,100 @@ p {
   .colbeat {
     text-align: center;
   }
+  .mobile--image {
+    padding-top: 15px;
+    padding-bottom: 75px;
+  }
+  .order-online-link{
+    border: 0;
+  }
+  .w-col.w-col-6.w-col-small-6.w-col-tiny-6.locations-right-col div {
+    padding-left: 40px;
+  }
+  .footer {
+    display: none;
+  }
 }
 
 /***phone portrait***/
 @media (max-width: 479px) {
 
+  body {
+    background-image: none;
+    background-color: #e6e6e6;
+  }
   a {
     text-decoration: none;
   }
-
   h1 {
-    font-family: 'Lobster', cursive;
+    font-family: 'Pathway Gothic One', sans-serif;
     color: #fff;
-  } 
-
+    font-size: 28px;
+    }
+  h2 {
+    font-size: 26px;
+  }
+  h3 {
+    font-size: 22px;
+  }
+  h4 {
+    font-size: 20px;
+  }
   h5 {
     font-size: 12px;
   }
+  .headercontent h2 {
+    display: block;
+  }
+  .mobile-view-index-link {
+    display: block;
+  }
+  .mobile-view-nav-image {
+    display: block;
+  }
   .col1 {
     margin-bottom: 11px;
-    background-color: #063472;
+    background-color: #1C1F1F;
+    background-image: url(../images/mobile-view-div-background.jpg);
   }
   .col2 {
     margin-bottom: 11px;
-    background-color: #063472;
+    background-color: #1C1F1F;
+    background-image: url(../images/mobile-view-div-background.jpg);
   }
   .col3 {
-    background-color: #e99f22;
+    background-color: #1C1F1F;
+    background-image: url(../images/mobile-view-div-background.jpg);
   }
   .col4 {
     margin-bottom: 11px;
-    background-color: #063472;
+    background-color: #1C1F1F;
+    background-image: url(../images/mobile-view-div-background.jpg);
   }
   .col5 {
     margin-bottom: 11px;
-    background-color: #e99f22;
+    background-color: #1C1F1F;
+    background-image: url(../images/mobile-view-div-background.jpg);
   }
   .col6 {
     margin-bottom: 11px;
-    background-color: #063472;
+    background-color: #1C1F1F;
+    background-image: url(../images/mobile-view-div-background.jpg);
   }
-
-  .img-contact {
-    height: 170px;
-  }
-
-  .img-about {
-    /*height: 170px;*/
+  .img-contact, .img-about, .img-menu, .img-keep, .img-franchise, .img-locations {
     display: none;
   }
-
   .block-order {
     margin-top: 0px;
+  }
+  .link-img {
+    background-image: url(../images/mobile-view-div-background.jpg);
+    padding-bottom: 55px;
   }
   .block-logo {
     margin-top: 0px;
     margin-bottom: 11px;
+    background-image: url(../images/mobile-view-div-background.jpg);
   }
   .social1 {
     margin-left: 0px;
@@ -669,16 +914,22 @@ p {
   .navllogo {
     margin-left: 0px;
   }
-
-  .delimit-content {
-    /*width: 299px;*/
-    width: 99%;
+  .delimit-content{
+    margin-bottom: 5%;
+  }
+  .delimit-content, .w-container {
+    width: 95.5%;
+  }
+  .contact-page-restaurant-info h2, p {
+    max-width: 200px;
+    margin: 0 auto;ß
   }
   .delimit-content.header-menu {
-    width: 301px;
+    width: 95.5%;
   }
   .map {
     margin-top: 16px;
+    padding-right: 5px;
   }
   .adorder {
     width: 260px;
@@ -692,39 +943,39 @@ p {
   }
   .row1-col2 {
     margin-top: 10px;
-    background-color: #063273;
+    background-color: #1C1F1F;
     text-align: center;
   }
   .row1-col3 {
     margin-top: 10px;
-    background-color: #e8e5c9;
+    background-color: #1C1F1F;
     text-align: center;
   }
   .row1-col1 {
-    background-color: #063273;
+    background-color: #1C1F1F;
     text-align: center;
   }
   .row2-col1 {
-    background-color: #e8e5c9;
+    background-color: #1C1F1F;
     text-align: center;
   }
   .row2-col2 {
     margin-top: 10px;
-    background-color: #e8e5c9;
+    background-color: #1C1F1F;
     text-align: center;
   }
   .row3-col1 {
-    background-color: #063273;
+    background-color: #1C1F1F;
     text-align: center;
   }
   .row3-col2 {
     margin-top: 10px;
-    background-color: #063273;
+    background-color: #1C1F1F;
     text-align: center;
   }
   .row3-col3 {
     margin-top: 10px;
-    background-color: #e8e5c9;
+    background-color: #1C1F1F;
     text-align: center;
   }
   .contenedor-menu {
@@ -735,11 +986,33 @@ p {
   }
   .img-col3 {
     height: 72px;
-
   }
-  .w-col.w-col-4 {*/
-    background-image: url(../images/mobile-view-div-background.jpg);
-    height: 400px;
-    max-width: auto;
+  .mobile--image {
+    padding-top: 15px;
+    padding-bottom: 75px;
+  }
+  .order-online-link {
+    border: 0;
+  }
+  .locations-right-col div {
+    padding-left: 40px;
+  }
+  .locations-right-col h4 {
+    padding-left: 10px;
+  }
+  .w-col.w-col-6.w-col-small-6.w-col-tiny-6.locations-right-col div {
+    padding-left: 40px;
+  }
+  .footer {
+    height: 1px;
+    display: none;
+  }
+  #locations-tagline {
+    display: none;
+  }
+  img#founder-img {
+    float: none;
+    display: block;
+    margin: 10px auto;
   }
 }

@@ -11,6 +11,9 @@
   <link rel="stylesheet" type="text/css" href="css/webflow.css">
   <link rel="icon" type="image/png" href="images/fav.png" />
   <link rel="stylesheet" type="text/css" href="css/spris-pizza.webflow.css">
+  <link href="https://fonts.googleapis.com/css?family=Pathway+Gothic+One" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Carrois+Gothic" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Lobster" rel="stylesheet">
   <script src="https://ajax.googleapis.com/ajax/libs/webfont/1.4.7/webfont.js"></script>
   <script>
     WebFont.load({
@@ -20,7 +23,7 @@
     });
   </script>
   <script type="text/javascript" src="js/modernizr.js"></script>
-  
+
   <link rel="apple-touch-icon" href="https://daks2k3a4ib2z.cloudfront.net/img/webclip.png">
 </head>
 <body>
@@ -29,7 +32,8 @@
       <div class="w-col w-col-3 navcol">
         <div class="w-nav navigation" data-collapse="small" data-animation="default" data-duration="400" data-contain="1">
           <div class="w-container">
-            <a class="w-nav-brand navllogo" href="index.php"><img src="images/logo_spris.jpg" alt="548f38f8f166a77b3a94b135_logo_spris.jpg">
+            <a class="w-nav-brand navllogo" href="index.php"><img src="images/spris-logo-black-white-small.png" alt="548f38f8f166a77b3a94b135_logo_spris.jpg">
+            </a>
             </a>
             <?php include "includes/nav-main.php"; ?>
             <div class="w-nav-button">
@@ -39,23 +43,24 @@
         </div>
       </div>
       <div class="w-col w-col-9 w-clearfix columna-contenido">
-        <div class="headercontent"><img src="images/header_work.jpg" alt="54918aa3b473fee828cf6b3c_header_work.jpg">
+        <div class="headercontent"><img src="images/Header---Work-With-Us.jpg" alt="54918aa3b473fee828cf6b3c_header_work.jpg">
+          <h2>Work With Us</h2>
         </div>
         <div class="w-clearfix delimit-content">
-          <div style="width:100%; float:left; ">
-          <img src="images/staff0.jpg" align="left" style="margin-top:5px;"/>
-          <img src="images/staff.jpg" align="right" style="margin-top:5px;"/>
-        </div>
+          <!-- <div style="width:100%; float:left; "> -->
+          <img class="display-block-img" src="images/staff0.jpg" />
+          <img class="display-block-img" src="images/staff.jpg" />
+        <!-- </div> -->
           <h2>At Spris Pizza we work hard, have fun and make people happy!</h2>
 <p>Spris Pizza believes in the power of people.  Without skilled, friendly and hard-working individuals our pizza wouldn’t taste half as delicious.  So if you are outgoing, honest, energetic and have a passion for excellent customer service we want you to join our team! 
 <br>We offer competitive rates, benefits and a friendly work environment. 
             <br>
-                   
+
             <br><br><a href="https://graspa.applicantpool.com/jobs/" target="0" class="navlink" style="text-decoration:none !important"> Apply today!</a>
           </p>
+          <?php include "includes/footer.php"; ?>
         </div>
       </div>
     </div>
-    <?php include "includes/footer.php"; ?>
 </body>
 </html>

@@ -11,6 +11,10 @@
   <link rel="stylesheet" type="text/css" href="css/webflow.css">
   <link rel="icon" type="image/png" href="images/fav.png" />
   <link rel="stylesheet" type="text/css" href="css/spris-pizza.webflow.css">
+  <link href="https://fonts.googleapis.com/css?family=Pathway+Gothic+One" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Carrois+Gothic" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Lobster" rel="stylesheet">
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/Buttons/2.0.0/css/buttons.min.css">
   <script src="https://ajax.googleapis.com/ajax/libs/webfont/1.4.7/webfont.js"></script>
   <script>
     WebFont.load({
@@ -20,7 +24,7 @@
     });
   </script>
   <script type="text/javascript" src="js/modernizr.js"></script>
-  
+
   <link rel="apple-touch-icon" href="https://daks2k3a4ib2z.cloudfront.net/img/webclip.png">
 </head>
 <body>
@@ -29,7 +33,8 @@
       <div class="w-col w-col-3 navcol">
         <div class="w-nav navigation" data-collapse="small" data-animation="default" data-duration="400" data-contain="1">
           <div class="w-container">
-            <a class="w-nav-brand navllogo" href="index.php"><img src="images/logo_spris.jpg" alt="548f38f8f166a77b3a94b135_logo_spris.jpg">
+            <a class="w-nav-brand navllogo" href="index.php"><img src="images/spris-logo-black-white-small.png" alt="548f38f8f166a77b3a94b135_logo_spris.jpg">
+            </a>
             </a>
             <?php include "includes/nav-main.php"; ?>
             <div class="w-nav-button">
@@ -39,15 +44,12 @@
         </div>
       </div>
       <div class="w-col w-col-9 w-clearfix columna-contenido">
-        <div class="headercontent"><img src="images/header_locations.jpg" alt="549171a0efd215213fdf9217_header_locations.jpg">
+        <div class="headercontent"><img src="images/Header---Locations.jpg" alt="549171a0efd215213fdf9217_header_locations.jpg">
+        <h2>Locations</h2>
         </div>
         <div class="delimit-content">
-          <p>Respect your senses and eat the best! &nbsp;Your stomach will thank you!
-            <br>Find the location closest to you.</p>
-
-          
-
-
+          <h1>Respect your senses and eat the best!</h1>
+          <h2 id="locations-tagline">Your stomach will thank you!</h2>
           <div class="w-row content-locations">
             <div class="w-col w-col-6 w-col-small-6 w-col-tiny-6 locations-right-col">
               <h4>SPRIS ARTISAN PIZZA – DOWNTOWN MIAMI</h4>
@@ -58,7 +60,8 @@
                 <br>
                 <br><strong>Hours of operation</strong>
                 <br>Mon – Fri: 11:00 am - 10:00 pm
-              </div><a class="minilinks" href="http://sprispizza.dineblast.com/">Order Online |</a>
+              </div>
+              <a href="http://sprispizza.dineblast.com/" class="button button-primary button-small">Order Online</a>
             </div>
             <div class="w-col w-col-6 w-col-small-6 w-col-tiny-6 location-left-col">
               <a class="w-inline-block" href="https://www.google.com/maps/place/Spris+Artisan+Pizza/@25.772308,-80.188163,17z/data=!3m1!4b1!4m2!3m1!1s0x88d9b69d8ed92c1d:0x7f58e4881d95febf?hl=en" target="_blank"><img class="map" src="images/map1.jpg" alt="5491763878f295e928ed4a2a_map1.jpg">
@@ -78,7 +81,8 @@
                 <br>Mon - Thu: 11:00 am - 10:00 pm
                 <br>Fri - Sat: 11:00 am - 11:00 pm
                 <br>Sun: 11:00 am - 10:00 pm
-              </div><a class="minilinks" href="http://www.oftendining.com/restaurant_info/view_restaurant.php?store_id=4154">Order Online |</a>
+              </div>
+              <a href="http://www.oftendining.com/restaurant_info/view_restaurant.php?store_id=4154" class="button button-primary button-small">Order Online</a>
             </div>
             <div class="w-col w-col-6 w-col-small-6 w-col-tiny-6 location-left-col">
               <a class="w-inline-block" href="https://www.google.com/maps/place/Spris+Artisan+Pizza/@25.80799,-80.193995,17z/data=!3m2!4b1!5s0x88d9b15397d31ee3:0x7edf0a3adbdd0c95!4m2!3m1!1s0x88d9b153a287f211:0x212c9e75bb9ae8b3?hl=en" target="_blank"><img class="map" src="images/map2.jpg" alt="54917645afc8621f3f4647cd_map2.jpg">
@@ -92,7 +96,8 @@
               <div>721 Lincoln Road
                 <br>Miami Beach, FL 33139
                 <br>Tel. 305 673 2020<br>
-                <a href="mailto:crofty@spris.cc,info@graspagroup.com">crofty@spris.cc</a> |
+                <a href="mailto:crofty@spris.cc,info@graspagroup.com">crofty@spris.cc</a>
+                <br>
                 <a href="http://spris.cc">www.spris.cc</a>
                 <br>
                 <br><strong>Hour of operation</strong>
@@ -106,10 +111,9 @@
               </a>
             </div>
           </div>
-
+        <?php include "includes/footer.php"; ?>
         </div>
       </div>
     </div>
-    <?php include "includes/footer.php"; ?>
 </body>
 </html>

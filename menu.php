@@ -11,6 +11,9 @@
   <link rel="stylesheet" type="text/css" href="css/webflow.css">
   <link rel="icon" type="image/png" href="images/fav.png" />
   <link rel="stylesheet" type="text/css" href="css/spris-pizza.webflow.css">
+  <link href="https://fonts.googleapis.com/css?family=Pathway+Gothic+One" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Carrois+Gothic" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Lobster" rel="stylesheet">
   <script src="https://ajax.googleapis.com/ajax/libs/webfont/1.4.7/webfont.js"></script>
   <script>
     WebFont.load({
@@ -20,7 +23,7 @@
     });
   </script>
   <script type="text/javascript" src="js/modernizr.js"></script>
-  
+
   <link rel="apple-touch-icon" href="https://daks2k3a4ib2z.cloudfront.net/img/webclip.png">
 </head>
 <body>
@@ -29,7 +32,8 @@
       <div class="w-col w-col-3 navcol">
         <div class="w-nav navigation" data-collapse="small" data-animation="default" data-duration="400" data-contain="1">
           <div class="w-container">
-            <a class="w-nav-brand navllogo" href="index.php"><img src="images/logo_spris.jpg" alt="548f38f8f166a77b3a94b135_logo_spris.jpg">
+            <a class="w-nav-brand navllogo" href="index.php"><img src="images/spris-logo-black-white-small.png" alt="548f38f8f166a77b3a94b135_logo_spris.jpg">
+            </a>
             </a>
             <?php include "includes/nav-main.php"; ?>
             <div class="w-nav-button">
@@ -39,10 +43,11 @@
         </div>
       </div>
       <div class="w-col w-col-9 w-clearfix columna-contenido">
-        <div class="headercontent"><img src="images/header_menu.jpg" alt="54918cc378f295e928ed4b57_header_menu.jpg">
+        <div class="headercontent"><img src="images/Header---Menu.jpg" alt="54918cc378f295e928ed4b57_header_menu.jpg">
+        <h2>Menu</h2>
         </div>
         <div class="w-clearfix delimit-content order">
-           <a href="images/Summer2016menu.pdf">Download New 2016 Menu PDF </a>
+           <a href="images/Summer2016menu.pdf"><p id="menu-pdf-link">Download New 2016 Menu PDF</p></a>
 <br>
 <br>
 <h2>PANINI</h2>
@@ -231,9 +236,9 @@ The price you pay depends on the time you place your order for one of the items 
 *Consuming raw or undercooked meats, poultry, seafood, shellfish or eggs may increase your risk of food borne illness<br>
 CAUTION: kalamata olives may contain pits!
 
+          <?php include "includes/footer.php"; ?>
         </div>
       </div>
-    </div>
-    <?php include "includes/footer.php"; ?>
+  </div>
 </body>
 </html>

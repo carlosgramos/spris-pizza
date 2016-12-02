@@ -32,15 +32,18 @@
         </a>
       </div>
       <div class="w-col w-col-8 w-col-stack columnacontenido">
+        <!-- Logo -->
+        <!-- begin mobile view -->
         <div class="w-hidden-main block-logo">
           <img src="images/spris-logo-black-white-small.png">
         </div>
+        <!-- end mobile view -->
         <div class="w-row columna-en3-1">
           <!-- About Us -->
           <div class="w-col w-col-4 w-col-small-4 col1">
             <a class="w-inline-block trans" href="about-us.php"><img class="img-about link-img" src="images/Panel-2-About-Us.jpg" alt="About Spris Pizza">
             <!--begin mobile view-->
-            <a class="w-inline-block trans" href="about-us.php"><h1>About Us</h1></a>
+            <a class="w-inline-block trans mobile-view-index-link" href="about-us.php"><h1 class="front-page-nav-link">About Us</h1></a>
             <img class="mobile-view-nav-image" src="images/bread-img.jpg" alt="bread-image">
             <!-- <a class="w-inline-block trans" href="about-us.php"><img class="img-about link-img" src="images/pizza-img.jpg" alt="About Spris Pizza"> -->
             </a>
@@ -51,8 +54,8 @@
             <a class="w-inline-block trans" href="locations.php"><img class="img-locations link-img" src="images/panel-3-Locations.jpg" alt="Locations Spris Pizza">
             </a>
             <!--begin mobile view-->
-            <a class="w-inline-block trans" href="locations.php"><h1>Locations</h1></a>
-            <img class="mobile-view-nav-image" src="images/vespa-img.jpg" alt="bread-image">
+            <a class="w-inline-block trans mobile-view-index-link" href="locations.php"><h1 class="front-page-nav-link">Locations</h1></a>
+            <img class="mobile-view-nav-image" src="images/vespa-img.jpg" alt="vespa-image">
             <!-- end mobile view -->
           </div>
           <!-- Menu -->
@@ -60,8 +63,8 @@
             <a class="w-inline-block trans" href="menu.php"><img class="img-menu link-img" src="images/panel-4-Menu.jpg" alt="Menu Spris Pizza">
             </a>
             <!--begin mobile view-->
-            <a class="w-inline-block trans" href="menu.php"><h1>Menu</h1></a>
-            <img class="mobile-view-nav-image" src="images/pizza-img-2.jpg" alt="bread-image">
+            <a class="w-inline-block trans mobile-view-index-link" href="menu.php"><h1 class="front-page-nav-link">Menu</h1></a>
+            <img class="mobile-view-nav-image" src="images/pizza-img-2.jpg" alt="pizza-2-image">
             <!-- end mobile view -->
           </div>
         </div>
@@ -71,35 +74,43 @@
             <a class="w-inline-block trans" href="http://sprispizzafranchise.com/" target="_blank"><img class="img-franchise link-img" src="images/panel-5-franchise-info.jpg" alt="Franchise Info Spris Pizza">
             </a>
             <!--begin mobile view-->
-            <a class="w-inline-block trans" href="http://sprispizzafranchise.com/" target="_blank"><h1>Franchise</h1></a>
+            <a class="w-inline-block trans mobile-view-index-link" href="http://sprispizzafranchise.com/"><h1 class="front-page-nav-link">Franchise</h1></a>
+            <img class="mobile-view-nav-image" src="images/franchising-index-image.jpg" alt="franchise-image">
             <!-- end mobile view -->
           </div>
           <!-- Work With Us -->
           <div class="w-col w-col-4 w-col-small-4 col5">
             <a class="w-inline-block trans" href="work-with-us.php"><img class="img-keep link-img" src="images/panel-6-work-with-us.jpg" alt="Keep it Green Spris Pizza"></a>
             <!--begin mobile view-->
-            <a class="w-inline-block trans" href="work-with-us.php"><h1>Work With Us</h1></a>
+            <a class="w-inline-block trans mobile-view-index-link" href="work-with-us.php"><h1 class="front-page-nav-link">Work With Us</h1></a>
+            <img class="mobile-view-nav-image" src="images/staff-mobile-image.jpg" alt="work-with-us-image">
             <!-- end mobile view -->
           </div>
           <!-- Contact -->
           <div class="w-col w-col-4 w-col-small-4 col6">
             <a class="w-inline-block trans" href="ape.php"><img class="img-contact link-img" src="images/panel-7-The-Ape.jpg" alt="Contact Spris Pizza"></a>
             <!--begin mobile view-->
-            <a class="w-inline-block trans" href="ape.php"><h1>Ape</h1></a>
-            <img class="mobile-view-nav-image" src="images/ape-img.png" alt="bread-image">
+            <a class="w-inline-block trans mobile-view-index-link" href="ape.php"><h1 class="front-page-nav-link">Ape</h1></a>
+            <img class="mobile-view-nav-image" src="images/ape-img.png" alt="ape-image">
             <!-- end mobile view -->
           </div>
         </div>
-        <div class="w-hidden-main block-order link-img"><a class="w-inline-block trans" href="order-online.php"><h1>Order Online</h1></a>
+        <div class="w-hidden-main block-order link-img">
+          <a class="w-inline-block trans" href="order-online.php">
+            <h1 class="front-page-nav-link">Order Online</h1>
+          </a>
+          <a class="w-inline-block trans" href="order-online.php"><img class="mobile-footer-image" src="images/amazon-index-mobile.jpg" alt="order-online-image"></a>
         </div>
       <!-- <img class="trans" src="images/mobile-header-footer-bgd.jpg" alt="548f1373c9dd0f7c3a0ce200_order-footer.jpg"> -->
       </div>
       <!-- Order Online -->
       <div class="w-col w-col-2 w-col-stack w-hidden-medium w-hidden-small w-hidden-tiny columnaorder">
-        <a class="w-inline-block trans" href="order-online.php"><img class="img-order link-img" src="images/panel-8-Order-Online.jpg" alt="Order Online  Spris Pizza">
+        <a class="w-inline-block trans" href="order-online.php"><img class="img-order link-img" src="images/panel-8-Order-Online.jpg" alt="Order Online Spris Pizza">
         </a>
       </div>
     </div>
-    <?php include "includes/footer.php"; ?>
+    <!-- </*?php include "includes/footer.php";?*/> -->
+    <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+    <script type="text/javascript" src="js/webflow.js"></script>
 </body>
 </html>
