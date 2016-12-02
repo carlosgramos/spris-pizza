@@ -531,14 +531,14 @@ div.ape-content {
 .w-col.w-col-6.w-col-small-6.w-col-tiny-6.locations-right-col div {
   padding-left: 40px;
 }
-.footer {
+/*.footer {
   position:fixed;
   bottom: 0;
   padding: 0;
   margin: 0;
   background-color: #1C1F1F;
   width: inherit;
-}
+}*/
 #menu-pdf-link {
   margin-top: 20px;
 }
@@ -673,9 +673,9 @@ div.ape-content {
   .w-col.w-col-6.w-col-small-6.w-col-tiny-6.locations-right-col div {
     padding-left: 40px;
   }
-  .footer {
+  /*.footer {
     display: none;
-  }
+  }*/
 }
 
 /***phone landscape***/
@@ -813,9 +813,9 @@ div.ape-content {
   .w-col.w-col-6.w-col-small-6.w-col-tiny-6.locations-right-col div {
     padding-left: 40px;
   }
-  .footer {
+  /*.footer {
     display: none;
-  }
+  }*/
 }
 
 /***phone portrait***/
@@ -1003,10 +1003,10 @@ div.ape-content {
   .w-col.w-col-6.w-col-small-6.w-col-tiny-6.locations-right-col div {
     padding-left: 40px;
   }
-  .footer {
+  /*.footer {
     height: 1px;
     display: none;
-  }
+  }*/
   #locations-tagline {
     display: none;
   }

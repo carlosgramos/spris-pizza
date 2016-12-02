@@ -70,8 +70,11 @@
           <p>A founding Director of Spris Artisan Pizza, Andrea Di Giuseppe brings his invaluable 16-year expertise in franchise development.  He currently serves as Rocksolid Granit (USA), Inc.’s President and Chairman of the Board, positions he has held, respectively, April 2004 since and December 2006. Rocksolid Granit is the franchisor for the “Granite Transformations” concept in North America, a worldwide leader in the kitchen and bath remodeling industry. Granite Transformations holds franchisor rights with affiliates in Georgia, California, Utah and Florida. </p>
           <p>Andrea rose through the ranks at Rocksolid Granite (USA) and oversaw the development of the franchise concept throughout the United States as co-owner of Granite Transformations, ranked in Entrepreneur Magazine’s 2015 Top 500 Franchise with over 145 franchises worldwide. The company has its U.S. headquarters in Miramar, Florida and European headquarters in London, UK.<p>
           <p>Andrea has lent his expertise in identifying unique franchise opportunities to the team. His Italian roots and love for food have kept the successful balance between a scalable concept and quality at Spris Artisan Pizza.</p>
-          <?php include "includes/footer.php"; ?>
       </div>
   </div>
+</div>
+<?php include "includes/footer.php"; ?>
+</div>
+  <!-- End container wrapper -->
 </body>
 </html>
